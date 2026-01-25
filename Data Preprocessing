@@ -1,0 +1,98 @@
+import torch
+import pandas as pd
+import numpy as np
+from transformers import pipeline
+from tqdm import tqdm
+
+# 1. SETUP & DATA LOADING
+file_path = 'Bahrain Food Dataset.csv'
+df = pd.read_csv(file_path)
+
+torch.set_num_threads(torch.get_num_threads())
+print("Initializing AI Model...")
+
+classifier = pipeline(
+    "zero-shot-classification",
+    model="facebook/bart-large-mnli",
+    tokenizer="facebook/bart-large-mnli",
+    device=-1
+)
+classifier.model.eval()
+
+# 2. DEFINE LABELS & PARAMETERS
+meal_labels = ["breakfast", "lunch", "dinner", "snack"]
+batch_size = 16
+
+# 3. BATCH PARALLEL INFERENCE
+food_items = df['Food Item'].astype(str).tolist()
+results = []
+
+print(f"Processing {len(food_items)} food items in parallel batches...")
+
+meal_thresholds = {
+    "breakfast": 0.2,
+    "snack": 0.15,
+    "lunch": 0.35,
+    "dinner": 0.35
+}
+
+for i in tqdm(range(0, len(food_items), batch_size)):
+    batch = food_items[i:i + batch_size]
+
+    outputs = classifier(
+        batch,
+        meal_labels,
+        multi_label=True
+    )
+
+    for result in outputs:
+        scores = dict(zip(result['labels'], result['scores']))
+        results.append({
+            'Breakfast': int(scores['breakfast'] >= meal_thresholds['breakfast']),
+            'Snack 1':   int(scores['snack']     >= meal_thresholds['snack']),
+            'Lunch':     int(scores['lunch']     >= meal_thresholds['lunch']),
+            'Snack 2':   int(scores['snack']     >= meal_thresholds['snack']),
+            'Dinner':    int(scores['dinner']    >= meal_thresholds['dinner'])
+        })
+
+# Assign results back to DataFrame
+df[['Breakfast', 'Snack 1', 'Lunch', 'Snack 2', 'Dinner']] = pd.DataFrame(results)
+
+# 4. RULE-BASED FILTERING ACCORDING TO SAUDI GUIDELINES
+for i, row in df.iterrows():
+    category = row['Category'].lower()
+
+    # Breakfast & Lunch: no fruits
+    if category == 'fruit':
+        df.at[i, 'Breakfast'] = 0
+        df.at[i, 'Lunch'] = 0
+        # Snacks & Dinner: all fruits
+        df.at[i, 'Snack 1'] = 1
+        df.at[i, 'Snack 2'] = 1
+        df.at[i, 'Dinner'] = 1
+
+    else:
+        # Snacks: only grains and fruits (fruits already handled)
+        if category not in ['grain']:
+            df.at[i, 'Snack 1'] = 0
+            df.at[i, 'Snack 2'] = 0
+
+    # Dinner: no dairy
+    if category == 'dairy':
+        df.at[i, 'Dinner'] = 0
+
+# 5. USER PREFERENCE GENERATION
+print("Generating random user preference scores...")
+
+pref_options = [0, 0.25, 0.5, 0.75, 1.0]
+np.random.seed(42)
+
+df['User Preference'] = np.random.choice(pref_options, size=len(df))
+
+# 6. EXPORT RESULTS
+output_name = 'Processed_Bahrain_Food_Dataset.csv'
+df.to_csv(output_name, index=False)
+
+print("\nTask Complete!")
+print(f"File saved as: {output_name}")
+print(df[['Food Item', 'Breakfast', 'Snack 1', 'Lunch', 'Snack 2', 'Dinner', 'User Preference']].head())
