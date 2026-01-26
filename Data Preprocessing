@@ -63,7 +63,7 @@ for i, row in df.iterrows():
     category = row['Category'].lower()
 
     # Breakfast & Lunch: no fruits
-    if category == 'fruit':
+    if category == 'Fruit':
         df.at[i, 'Breakfast'] = 0
         df.at[i, 'Lunch'] = 0
         # Snacks & Dinner: all fruits
@@ -73,12 +73,12 @@ for i, row in df.iterrows():
 
     else:
         # Snacks: only grains and fruits (fruits already handled)
-        if category not in ['grain']:
+        if category not in ['Grains']:
             df.at[i, 'Snack 1'] = 0
             df.at[i, 'Snack 2'] = 0
 
     # Dinner: no dairy
-    if category == 'dairy':
+    if category == 'Dairy':
         df.at[i, 'Dinner'] = 0
 
 # 5. USER PREFERENCE GENERATION
