@@ -1,0 +1,672 @@
+
+INITIAL INDIVIDUAL CHECK
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Peach', 'Quinoa (cooked)', 'Tuna (canned)', 'Cottage Cheese', 'Corn Oil']
+Snack 1   : ['Bell Pepper', 'Peach', 'Pita Bread', 'Turkey Breast', 'Sour Cream', 'Mayonnaise']
+Lunch     : ['Cucumber', 'Banana', 'Rice (cooked)', 'Chicken Breast', 'Cottage Cheese', 'Avocado']
+Snack 2   : ['Cucumber', 'Peach', 'Oatmeal', 'Black Beans', 'Swiss Cheese', 'Butter']
+Dinner    : ['Broccoli', 'Strawberries', 'Brown Rice', 'Black Beans', 'Greek Yogurt', 'Avocado']
+
+--- FITNESS DEBUG ---
+Calories: 2630.3
+Macros %: C=0.61, P=0.29, F=0.10
+J_macro=0.0363, J_var=0.0095, J_cal=0.4147
+
+--- FITNESS DEBUG ---
+Calories: 2250.1
+Macros %: C=0.46, P=0.38, F=0.16
+J_macro=0.0496, J_var=0.0095, J_cal=0.1651
+
+--- FITNESS DEBUG ---
+Calories: 2344.3
+Macros %: C=0.45, P=0.33, F=0.21
+J_macro=0.0286, J_var=0.0119, J_cal=0.2164
+
+--- FITNESS DEBUG ---
+Calories: 2681.2
+Macros %: C=0.53, P=0.27, F=0.20
+J_macro=0.0081, J_var=0.0071, J_cal=0.4566
+
+--- FITNESS DEBUG ---
+Calories: 3101.5
+Macros %: C=0.48, P=0.29, F=0.23
+J_macro=0.0129, J_var=0.0071, J_cal=0.8807
+
+--- FITNESS DEBUG ---
+Calories: 2941.9
+Macros %: C=0.66, P=0.21, F=0.13
+J_macro=0.0250, J_var=0.0048, J_cal=0.7034
+
+--- FITNESS DEBUG ---
+Calories: 2848.0
+Macros %: C=0.60, P=0.27, F=0.14
+J_macro=0.0200, J_var=0.0083, J_cal=0.6084
+
+--- FITNESS DEBUG ---
+Calories: 2892.9
+Macros %: C=0.51, P=0.31, F=0.18
+J_macro=0.0195, J_var=0.0048, J_cal=0.6529
+
+--- FITNESS DEBUG ---
+Calories: 3001.6
+Macros %: C=0.61, P=0.23, F=0.15
+J_macro=0.0149, J_var=0.0059, J_cal=0.7674
+
+--- FITNESS DEBUG ---
+Calories: 2813.2
+Macros %: C=0.56, P=0.28, F=0.16
+J_macro=0.0155, J_var=0.0166, J_cal=0.5749
+gen	nevals	avg     	min     	max
+0  	10    	0.876069	0.816216	0.946925
+
+========== CROSSOVER DEBUG ==========
+Meal cut points: 1 → 2
+
+Parent 1 BEFORE
+------------------------------------------------------------
+Breakfast : ['Carrots', 'Orange', 'Oatmeal', 'Turkey Breast', 'Feta Cheese', 'Butter']
+Snack 1   : ['Cauliflower', 'Banana', 'Pita Bread', 'Turkey Breast', 'Feta Cheese', 'Walnuts']
+Lunch     : ['Potato', 'Orange', 'Quinoa (cooked)', 'Omelet', 'Feta Cheese', 'Almonds']
+Snack 2   : ['Broccoli', 'Pineapple', 'Salted Cracker', 'Canned Chicken', 'Cottage Cheese', 'Walnuts']
+Dinner    : ['Cucumber', 'Orange', 'Corn Tortilla', 'Turkey Breast', 'Cottage Cheese', 'Sunflower Oil']
+
+Parent 2 BEFORE
+------------------------------------------------------------
+Breakfast : ['Potato', 'Apple', 'Quinoa (cooked)', 'Black Beans', 'Milk (2%)', 'Coconut Oil']
+Snack 1   : ['Bell Pepper', 'Apple', 'Quinoa (cooked)', 'Ground Beef (lean)', 'Milk (2%)', 'Sunflower Oil']
+Lunch     : ['Cauliflower', 'Pineapple', 'Corn Tortilla', 'Eggs (boiled)', 'Feta Cheese', 'Almonds']
+Snack 2   : ['Cucumber', 'Pineapple', 'Whole Wheat Bread', 'Omelet', 'Cheddar Cheese', 'Walnuts']
+Dinner    : ['Green Beans', 'Peach', 'Pasta (cooked)', 'Canned Chicken', 'Sour Cream', 'Sunflower Oil']
+
+Parent 1 AFTER
+------------------------------------------------------------
+Breakfast : ['Carrots', 'Orange', 'Oatmeal', 'Turkey Breast', 'Feta Cheese', 'Butter']
+Snack 1   : ['Bell Pepper', 'Apple', 'Quinoa (cooked)', 'Ground Beef (lean)', 'Milk (2%)', 'Sunflower Oil']
+Lunch     : ['Potato', 'Orange', 'Quinoa (cooked)', 'Omelet', 'Feta Cheese', 'Almonds']
+Snack 2   : ['Broccoli', 'Pineapple', 'Salted Cracker', 'Canned Chicken', 'Cottage Cheese', 'Walnuts']
+Dinner    : ['Cucumber', 'Orange', 'Corn Tortilla', 'Turkey Breast', 'Cottage Cheese', 'Sunflower Oil']
+
+Parent 2 AFTER
+------------------------------------------------------------
+Breakfast : ['Potato', 'Apple', 'Quinoa (cooked)', 'Black Beans', 'Milk (2%)', 'Coconut Oil']
+Snack 1   : ['Cauliflower', 'Banana', 'Pita Bread', 'Turkey Breast', 'Feta Cheese', 'Walnuts']
+Lunch     : ['Cauliflower', 'Pineapple', 'Corn Tortilla', 'Eggs (boiled)', 'Feta Cheese', 'Almonds']
+Snack 2   : ['Cucumber', 'Pineapple', 'Whole Wheat Bread', 'Omelet', 'Cheddar Cheese', 'Walnuts']
+Dinner    : ['Green Beans', 'Peach', 'Pasta (cooked)', 'Canned Chicken', 'Sour Cream', 'Sunflower Oil']
+====================================
+
+BEFORE MUTATION
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Peach', 'Salted Cracker', 'Canned Chicken', 'Ricotta Cheese', 'Mayonnaise']
+Snack 1   : ['Bell Pepper', 'Apple', 'Quinoa (cooked)', 'Tofu', 'Ricotta Cheese', 'Mayonnaise']
+Lunch     : ['Green Beans', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Cottage Cheese', 'Avocado']
+Snack 2   : ['Zucchini', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Grated Parmesan', 'Corn Oil']
+Dinner    : ['Bell Pepper', 'Watermelon', 'Salted Cracker', 'Omelet', 'Swiss Cheese', 'Walnuts']
+
+AFTER MUTATION
+------------------------------------------------------------
+Breakfast : ['Cauliflower', 'Peach', 'Salted Cracker', 'Canned Chicken', 'Ricotta Cheese', 'Mayonnaise']
+Snack 1   : ['Bell Pepper', 'Apple', 'Quinoa (cooked)', 'Tofu', 'Ricotta Cheese', 'Mayonnaise']
+Lunch     : ['Green Beans', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Cottage Cheese', 'Sunflower Oil']
+Snack 2   : ['Zucchini', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Grated Parmesan', 'Corn Oil']
+Dinner    : ['Bell Pepper', 'Watermelon', 'Salted Cracker', 'Omelet', 'Swiss Cheese', 'Walnuts']
+
+========== CROSSOVER DEBUG ==========
+Meal cut points: 1 → 4
+
+Parent 1 BEFORE
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Peach', 'Salted Cracker', 'Canned Chicken', 'Ricotta Cheese', 'Mayonnaise']
+Snack 1   : ['Bell Pepper', 'Apple', 'Quinoa (cooked)', 'Tofu', 'Ricotta Cheese', 'Mayonnaise']
+Lunch     : ['Green Beans', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Cottage Cheese', 'Avocado']
+Snack 2   : ['Zucchini', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Grated Parmesan', 'Corn Oil']
+Dinner    : ['Bell Pepper', 'Watermelon', 'Salted Cracker', 'Omelet', 'Swiss Cheese', 'Walnuts']
+
+Parent 2 BEFORE
+------------------------------------------------------------
+Breakfast : ['Potato', 'Apple', 'Quinoa (cooked)', 'Black Beans', 'Milk (2%)', 'Coconut Oil']
+Snack 1   : ['Bell Pepper', 'Apple', 'Quinoa (cooked)', 'Ground Beef (lean)', 'Milk (2%)', 'Sunflower Oil']
+Lunch     : ['Cauliflower', 'Pineapple', 'Corn Tortilla', 'Eggs (boiled)', 'Feta Cheese', 'Almonds']
+Snack 2   : ['Cucumber', 'Pineapple', 'Whole Wheat Bread', 'Omelet', 'Cheddar Cheese', 'Walnuts']
+Dinner    : ['Green Beans', 'Peach', 'Pasta (cooked)', 'Canned Chicken', 'Sour Cream', 'Sunflower Oil']
+
+Parent 1 AFTER
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Peach', 'Salted Cracker', 'Canned Chicken', 'Ricotta Cheese', 'Mayonnaise']
+Snack 1   : ['Bell Pepper', 'Apple', 'Quinoa (cooked)', 'Ground Beef (lean)', 'Milk (2%)', 'Sunflower Oil']
+Lunch     : ['Cauliflower', 'Pineapple', 'Corn Tortilla', 'Eggs (boiled)', 'Feta Cheese', 'Almonds']
+Snack 2   : ['Cucumber', 'Pineapple', 'Whole Wheat Bread', 'Omelet', 'Cheddar Cheese', 'Walnuts']
+Dinner    : ['Bell Pepper', 'Watermelon', 'Salted Cracker', 'Omelet', 'Swiss Cheese', 'Walnuts']
+
+Parent 2 AFTER
+------------------------------------------------------------
+Breakfast : ['Potato', 'Apple', 'Quinoa (cooked)', 'Black Beans', 'Milk (2%)', 'Coconut Oil']
+Snack 1   : ['Bell Pepper', 'Apple', 'Quinoa (cooked)', 'Tofu', 'Ricotta Cheese', 'Mayonnaise']
+Lunch     : ['Green Beans', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Cottage Cheese', 'Avocado']
+Snack 2   : ['Zucchini', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Grated Parmesan', 'Corn Oil']
+Dinner    : ['Green Beans', 'Peach', 'Pasta (cooked)', 'Canned Chicken', 'Sour Cream', 'Sunflower Oil']
+====================================
+
+========== CROSSOVER DEBUG ==========
+Meal cut points: 2 → 3
+
+Parent 1 BEFORE
+------------------------------------------------------------
+Breakfast : ['Bell Pepper', 'Orange', 'Oatmeal', 'Omelet', 'Swiss Cheese', 'Walnuts']
+Snack 1   : ['Potato', 'Watermelon', 'Whole Wheat Bread', 'Black Beans', 'Greek Yogurt', 'Avocado']
+Lunch     : ['Tomato', 'Orange', 'Quinoa (cooked)', 'Ground Beef (lean)', 'Feta Cheese', 'Sunflower Oil']
+Snack 2   : ['Potato', 'Strawberries', 'Rice (cooked)', 'Tuna (canned)', 'Swiss Cheese', 'Mayonnaise']
+Dinner    : ['Zucchini', 'Strawberries', 'Pasta (cooked)', 'Ground Beef (lean)', 'Sour Cream', 'Walnuts']
+
+Parent 2 BEFORE
+------------------------------------------------------------
+Breakfast : ['Zucchini', 'Apple', 'Bagel', 'Grilled Salmon', 'Greek Yogurt', 'Mayonnaise']
+Snack 1   : ['Zucchini', 'Strawberries', 'Corn Tortilla', 'Tofu', 'Cheddar Cheese', 'Sunflower Oil']
+Lunch     : ['Zucchini', 'Apple', 'Salted Cracker', 'Tofu', 'Grated Parmesan', 'Coconut Oil']
+Snack 2   : ['Tomato', 'Orange', 'Bagel', 'Grilled Salmon', 'Milk (2%)', 'Olive Oil']
+Dinner    : ['Spinach', 'Strawberries', 'Pita Bread', 'Ground Beef (lean)', 'Greek Yogurt', 'Butter']
+
+Parent 1 AFTER
+------------------------------------------------------------
+Breakfast : ['Bell Pepper', 'Orange', 'Oatmeal', 'Omelet', 'Swiss Cheese', 'Walnuts']
+Snack 1   : ['Potato', 'Watermelon', 'Whole Wheat Bread', 'Black Beans', 'Greek Yogurt', 'Avocado']
+Lunch     : ['Zucchini', 'Apple', 'Salted Cracker', 'Tofu', 'Grated Parmesan', 'Coconut Oil']
+Snack 2   : ['Potato', 'Strawberries', 'Rice (cooked)', 'Tuna (canned)', 'Swiss Cheese', 'Mayonnaise']
+Dinner    : ['Zucchini', 'Strawberries', 'Pasta (cooked)', 'Ground Beef (lean)', 'Sour Cream', 'Walnuts']
+
+Parent 2 AFTER
+------------------------------------------------------------
+Breakfast : ['Zucchini', 'Apple', 'Bagel', 'Grilled Salmon', 'Greek Yogurt', 'Mayonnaise']
+Snack 1   : ['Zucchini', 'Strawberries', 'Corn Tortilla', 'Tofu', 'Cheddar Cheese', 'Sunflower Oil']
+Lunch     : ['Tomato', 'Orange', 'Quinoa (cooked)', 'Ground Beef (lean)', 'Feta Cheese', 'Sunflower Oil']
+Snack 2   : ['Tomato', 'Orange', 'Bagel', 'Grilled Salmon', 'Milk (2%)', 'Olive Oil']
+Dinner    : ['Spinach', 'Strawberries', 'Pita Bread', 'Ground Beef (lean)', 'Greek Yogurt', 'Butter']
+====================================
+
+========== CROSSOVER DEBUG ==========
+Meal cut points: 1 → 4
+
+Parent 1 BEFORE
+------------------------------------------------------------
+Breakfast : ['Zucchini', 'Apple', 'Bagel', 'Grilled Salmon', 'Greek Yogurt', 'Mayonnaise']
+Snack 1   : ['Zucchini', 'Strawberries', 'Corn Tortilla', 'Tofu', 'Cheddar Cheese', 'Sunflower Oil']
+Lunch     : ['Zucchini', 'Apple', 'Salted Cracker', 'Tofu', 'Grated Parmesan', 'Coconut Oil']
+Snack 2   : ['Tomato', 'Orange', 'Bagel', 'Grilled Salmon', 'Milk (2%)', 'Olive Oil']
+Dinner    : ['Spinach', 'Strawberries', 'Pita Bread', 'Ground Beef (lean)', 'Greek Yogurt', 'Butter']
+
+Parent 2 BEFORE
+------------------------------------------------------------
+Breakfast : ['Zucchini', 'Watermelon', 'Salted Cracker', 'Grilled Salmon', 'Mozzarella', 'Butter']
+Snack 1   : ['Cauliflower', 'Orange', 'Brown Rice', 'Chicken Breast', 'Greek Yogurt', 'Avocado']
+Lunch     : ['Potato', 'Peach', 'Rice (cooked)', 'Eggs (boiled)', 'Milk (2%)', 'Peanut Butter']
+Snack 2   : ['Bell Pepper', 'Orange', 'Pasta (cooked)', 'Tofu', 'Greek Yogurt', 'Olive Oil']
+Dinner    : ['Cauliflower', 'Pineapple', 'Rice (cooked)', 'Ground Beef (lean)', 'Swiss Cheese', 'Coconut Oil']
+
+Parent 1 AFTER
+------------------------------------------------------------
+Breakfast : ['Zucchini', 'Apple', 'Bagel', 'Grilled Salmon', 'Greek Yogurt', 'Mayonnaise']
+Snack 1   : ['Cauliflower', 'Orange', 'Brown Rice', 'Chicken Breast', 'Greek Yogurt', 'Avocado']
+Lunch     : ['Potato', 'Peach', 'Rice (cooked)', 'Eggs (boiled)', 'Milk (2%)', 'Peanut Butter']
+Snack 2   : ['Bell Pepper', 'Orange', 'Pasta (cooked)', 'Tofu', 'Greek Yogurt', 'Olive Oil']
+Dinner    : ['Spinach', 'Strawberries', 'Pita Bread', 'Ground Beef (lean)', 'Greek Yogurt', 'Butter']
+
+Parent 2 AFTER
+------------------------------------------------------------
+Breakfast : ['Zucchini', 'Watermelon', 'Salted Cracker', 'Grilled Salmon', 'Mozzarella', 'Butter']
+Snack 1   : ['Zucchini', 'Strawberries', 'Corn Tortilla', 'Tofu', 'Cheddar Cheese', 'Sunflower Oil']
+Lunch     : ['Zucchini', 'Apple', 'Salted Cracker', 'Tofu', 'Grated Parmesan', 'Coconut Oil']
+Snack 2   : ['Tomato', 'Orange', 'Bagel', 'Grilled Salmon', 'Milk (2%)', 'Olive Oil']
+Dinner    : ['Cauliflower', 'Pineapple', 'Rice (cooked)', 'Ground Beef (lean)', 'Swiss Cheese', 'Coconut Oil']
+====================================
+
+BEFORE MUTATION
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Pineapple', 'Whole Wheat Bread', 'Tuna (canned)', 'Swiss Cheese', 'Almonds']
+Snack 1   : ['Carrots', 'Blueberries', 'Pasta (cooked)', 'Grilled Salmon', 'Grated Parmesan', 'Butter']
+Lunch     : ['Cucumber', 'Orange', 'Brown Rice', 'Ground Beef (lean)', 'Cottage Cheese', 'Olive Oil']
+Snack 2   : ['Zucchini', 'Banana', 'Bagel', 'Eggs (boiled)', 'Ricotta Cheese', 'Butter']
+Dinner    : ['Broccoli', 'Banana', 'Quinoa (cooked)', 'Ground Beef (lean)', 'Cottage Cheese', 'Corn Oil']
+
+AFTER MUTATION
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Pineapple', 'Corn Tortilla', 'Tuna (canned)', 'Swiss Cheese', 'Almonds']
+Snack 1   : ['Carrots', 'Blueberries', 'Pasta (cooked)', 'Grilled Salmon', 'Grated Parmesan', 'Butter']
+Lunch     : ['Cucumber', 'Orange', 'Brown Rice', 'Ground Beef (lean)', 'Cottage Cheese', 'Olive Oil']
+Snack 2   : ['Zucchini', 'Banana', 'Bagel', 'Eggs (boiled)', 'Ricotta Cheese', 'Butter']
+Dinner    : ['Cucumber', 'Banana', 'Quinoa (cooked)', 'Ground Beef (lean)', 'Cottage Cheese', 'Corn Oil']
+
+========== CROSSOVER DEBUG ==========
+Meal cut points: 2 → 4
+
+Parent 1 BEFORE
+------------------------------------------------------------
+Breakfast : ['Bell Pepper', 'Orange', 'Oatmeal', 'Omelet', 'Swiss Cheese', 'Walnuts']
+Snack 1   : ['Potato', 'Watermelon', 'Whole Wheat Bread', 'Black Beans', 'Greek Yogurt', 'Avocado']
+Lunch     : ['Tomato', 'Orange', 'Quinoa (cooked)', 'Ground Beef (lean)', 'Feta Cheese', 'Sunflower Oil']
+Snack 2   : ['Potato', 'Strawberries', 'Rice (cooked)', 'Tuna (canned)', 'Swiss Cheese', 'Mayonnaise']
+Dinner    : ['Zucchini', 'Strawberries', 'Pasta (cooked)', 'Ground Beef (lean)', 'Sour Cream', 'Walnuts']
+
+Parent 2 BEFORE
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Peach', 'Salted Cracker', 'Canned Chicken', 'Ricotta Cheese', 'Mayonnaise']
+Snack 1   : ['Bell Pepper', 'Apple', 'Quinoa (cooked)', 'Tofu', 'Ricotta Cheese', 'Mayonnaise']
+Lunch     : ['Green Beans', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Cottage Cheese', 'Avocado']
+Snack 2   : ['Zucchini', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Grated Parmesan', 'Corn Oil']
+Dinner    : ['Bell Pepper', 'Watermelon', 'Salted Cracker', 'Omelet', 'Swiss Cheese', 'Walnuts']
+
+Parent 1 AFTER
+------------------------------------------------------------
+Breakfast : ['Bell Pepper', 'Orange', 'Oatmeal', 'Omelet', 'Swiss Cheese', 'Walnuts']
+Snack 1   : ['Potato', 'Watermelon', 'Whole Wheat Bread', 'Black Beans', 'Greek Yogurt', 'Avocado']
+Lunch     : ['Green Beans', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Cottage Cheese', 'Avocado']
+Snack 2   : ['Zucchini', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Grated Parmesan', 'Corn Oil']
+Dinner    : ['Zucchini', 'Strawberries', 'Pasta (cooked)', 'Ground Beef (lean)', 'Sour Cream', 'Walnuts']
+
+Parent 2 AFTER
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Peach', 'Salted Cracker', 'Canned Chicken', 'Ricotta Cheese', 'Mayonnaise']
+Snack 1   : ['Bell Pepper', 'Apple', 'Quinoa (cooked)', 'Tofu', 'Ricotta Cheese', 'Mayonnaise']
+Lunch     : ['Tomato', 'Orange', 'Quinoa (cooked)', 'Ground Beef (lean)', 'Feta Cheese', 'Sunflower Oil']
+Snack 2   : ['Potato', 'Strawberries', 'Rice (cooked)', 'Tuna (canned)', 'Swiss Cheese', 'Mayonnaise']
+Dinner    : ['Bell Pepper', 'Watermelon', 'Salted Cracker', 'Omelet', 'Swiss Cheese', 'Walnuts']
+====================================
+
+========== CROSSOVER DEBUG ==========
+Meal cut points: 2 → 4
+
+Parent 1 BEFORE
+------------------------------------------------------------
+Breakfast : ['Bell Pepper', 'Orange', 'Oatmeal', 'Omelet', 'Swiss Cheese', 'Walnuts']
+Snack 1   : ['Potato', 'Watermelon', 'Whole Wheat Bread', 'Black Beans', 'Greek Yogurt', 'Avocado']
+Lunch     : ['Tomato', 'Orange', 'Quinoa (cooked)', 'Ground Beef (lean)', 'Feta Cheese', 'Sunflower Oil']
+Snack 2   : ['Potato', 'Strawberries', 'Rice (cooked)', 'Tuna (canned)', 'Swiss Cheese', 'Mayonnaise']
+Dinner    : ['Zucchini', 'Strawberries', 'Pasta (cooked)', 'Ground Beef (lean)', 'Sour Cream', 'Walnuts']
+
+Parent 2 BEFORE
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Peach', 'Salted Cracker', 'Canned Chicken', 'Ricotta Cheese', 'Mayonnaise']
+Snack 1   : ['Bell Pepper', 'Apple', 'Quinoa (cooked)', 'Tofu', 'Ricotta Cheese', 'Mayonnaise']
+Lunch     : ['Green Beans', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Cottage Cheese', 'Avocado']
+Snack 2   : ['Zucchini', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Grated Parmesan', 'Corn Oil']
+Dinner    : ['Bell Pepper', 'Watermelon', 'Salted Cracker', 'Omelet', 'Swiss Cheese', 'Walnuts']
+
+Parent 1 AFTER
+------------------------------------------------------------
+Breakfast : ['Bell Pepper', 'Orange', 'Oatmeal', 'Omelet', 'Swiss Cheese', 'Walnuts']
+Snack 1   : ['Potato', 'Watermelon', 'Whole Wheat Bread', 'Black Beans', 'Greek Yogurt', 'Avocado']
+Lunch     : ['Green Beans', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Cottage Cheese', 'Avocado']
+Snack 2   : ['Zucchini', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Grated Parmesan', 'Corn Oil']
+Dinner    : ['Zucchini', 'Strawberries', 'Pasta (cooked)', 'Ground Beef (lean)', 'Sour Cream', 'Walnuts']
+
+Parent 2 AFTER
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Peach', 'Salted Cracker', 'Canned Chicken', 'Ricotta Cheese', 'Mayonnaise']
+Snack 1   : ['Bell Pepper', 'Apple', 'Quinoa (cooked)', 'Tofu', 'Ricotta Cheese', 'Mayonnaise']
+Lunch     : ['Tomato', 'Orange', 'Quinoa (cooked)', 'Ground Beef (lean)', 'Feta Cheese', 'Sunflower Oil']
+Snack 2   : ['Potato', 'Strawberries', 'Rice (cooked)', 'Tuna (canned)', 'Swiss Cheese', 'Mayonnaise']
+Dinner    : ['Bell Pepper', 'Watermelon', 'Salted Cracker', 'Omelet', 'Swiss Cheese', 'Walnuts']
+====================================
+
+BEFORE MUTATION
+------------------------------------------------------------
+Breakfast : ['Bell Pepper', 'Orange', 'Oatmeal', 'Omelet', 'Swiss Cheese', 'Walnuts']
+Snack 1   : ['Potato', 'Watermelon', 'Whole Wheat Bread', 'Black Beans', 'Greek Yogurt', 'Avocado']
+Lunch     : ['Tomato', 'Orange', 'Quinoa (cooked)', 'Ground Beef (lean)', 'Feta Cheese', 'Sunflower Oil']
+Snack 2   : ['Potato', 'Strawberries', 'Rice (cooked)', 'Tuna (canned)', 'Swiss Cheese', 'Mayonnaise']
+Dinner    : ['Zucchini', 'Strawberries', 'Pasta (cooked)', 'Ground Beef (lean)', 'Sour Cream', 'Walnuts']
+
+AFTER MUTATION
+------------------------------------------------------------
+Breakfast : ['Carrots', 'Orange', 'Oatmeal', 'Omelet', 'Swiss Cheese', 'Walnuts']
+Snack 1   : ['Potato', 'Peach', 'Whole Wheat Bread', 'Black Beans', 'Greek Yogurt', 'Avocado']
+Lunch     : ['Tomato', 'Orange', 'Quinoa (cooked)', 'Ground Beef (lean)', 'Feta Cheese', 'Sunflower Oil']
+Snack 2   : ['Potato', 'Strawberries', 'Rice (cooked)', 'Tuna (canned)', 'Swiss Cheese', 'Mayonnaise']
+Dinner    : ['Zucchini', 'Strawberries', 'Pasta (cooked)', 'Ground Beef (lean)', 'Sour Cream', 'Walnuts']
+
+--- FITNESS DEBUG ---
+Calories: 2920.0
+Macros %: C=0.56, P=0.28, F=0.16
+J_macro=0.0153, J_var=0.0107, J_cal=0.6806
+
+--- FITNESS DEBUG ---
+Calories: 2201.0
+Macros %: C=0.45, P=0.39, F=0.16
+J_macro=0.0559, J_var=0.0083, J_cal=0.1411
+
+--- FITNESS DEBUG ---
+Calories: 2569.0
+Macros %: C=0.49, P=0.28, F=0.22
+J_macro=0.0104, J_var=0.0059, J_cal=0.3668
+
+--- FITNESS DEBUG ---
+Calories: 2789.9
+Macros %: C=0.51, P=0.26, F=0.23
+J_macro=0.0053, J_var=0.0059, J_cal=0.5531
+
+--- FITNESS DEBUG ---
+Calories: 2765.5
+Macros %: C=0.64, P=0.24, F=0.12
+J_macro=0.0269, J_var=0.0119, J_cal=0.5306
+
+--- FITNESS DEBUG ---
+Calories: 2836.9
+Macros %: C=0.51, P=0.31, F=0.18
+J_macro=0.0180, J_var=0.0059, J_cal=0.5976
+
+--- FITNESS DEBUG ---
+Calories: 2764.2
+Macros %: C=0.47, P=0.35, F=0.18
+J_macro=0.0330, J_var=0.0071, J_cal=0.5295
+
+--- FITNESS DEBUG ---
+Calories: 2764.2
+Macros %: C=0.47, P=0.35, F=0.18
+J_macro=0.0330, J_var=0.0071, J_cal=0.5295
+
+--- FITNESS DEBUG ---
+Calories: 3120.5
+Macros %: C=0.49, P=0.29, F=0.22
+J_macro=0.0117, J_var=0.0071, J_cal=0.9031
+1  	9     	0.915979	0.865516	0.946925
+
+BEFORE MUTATION
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Peach', 'Salted Cracker', 'Canned Chicken', 'Ricotta Cheese', 'Mayonnaise']
+Snack 1   : ['Bell Pepper', 'Apple', 'Quinoa (cooked)', 'Tofu', 'Ricotta Cheese', 'Mayonnaise']
+Lunch     : ['Green Beans', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Cottage Cheese', 'Avocado']
+Snack 2   : ['Zucchini', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Grated Parmesan', 'Corn Oil']
+Dinner    : ['Bell Pepper', 'Watermelon', 'Salted Cracker', 'Omelet', 'Swiss Cheese', 'Walnuts']
+
+AFTER MUTATION
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Peach', 'Salted Cracker', 'Tuna (canned)', 'Ricotta Cheese', 'Mayonnaise']
+Snack 1   : ['Bell Pepper', 'Apple', 'Pasta (cooked)', 'Tofu', 'Ricotta Cheese', 'Mayonnaise']
+Lunch     : ['Green Beans', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Cottage Cheese', 'Avocado']
+Snack 2   : ['Zucchini', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Grated Parmesan', 'Corn Oil']
+Dinner    : ['Bell Pepper', 'Watermelon', 'Salted Cracker', 'Omelet', 'Swiss Cheese', 'Walnuts']
+
+========== CROSSOVER DEBUG ==========
+Meal cut points: 1 → 4
+
+Parent 1 BEFORE
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Peach', 'Salted Cracker', 'Canned Chicken', 'Ricotta Cheese', 'Mayonnaise']
+Snack 1   : ['Bell Pepper', 'Apple', 'Quinoa (cooked)', 'Tofu', 'Ricotta Cheese', 'Mayonnaise']
+Lunch     : ['Green Beans', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Cottage Cheese', 'Avocado']
+Snack 2   : ['Zucchini', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Grated Parmesan', 'Corn Oil']
+Dinner    : ['Bell Pepper', 'Watermelon', 'Salted Cracker', 'Omelet', 'Swiss Cheese', 'Walnuts']
+
+Parent 2 BEFORE
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Peach', 'Quinoa (cooked)', 'Tuna (canned)', 'Cottage Cheese', 'Corn Oil']
+Snack 1   : ['Bell Pepper', 'Peach', 'Pita Bread', 'Turkey Breast', 'Sour Cream', 'Mayonnaise']
+Lunch     : ['Cucumber', 'Banana', 'Rice (cooked)', 'Chicken Breast', 'Cottage Cheese', 'Avocado']
+Snack 2   : ['Cucumber', 'Peach', 'Oatmeal', 'Black Beans', 'Swiss Cheese', 'Butter']
+Dinner    : ['Broccoli', 'Strawberries', 'Brown Rice', 'Black Beans', 'Greek Yogurt', 'Avocado']
+
+Parent 1 AFTER
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Peach', 'Salted Cracker', 'Canned Chicken', 'Ricotta Cheese', 'Mayonnaise']
+Snack 1   : ['Bell Pepper', 'Peach', 'Pita Bread', 'Turkey Breast', 'Sour Cream', 'Mayonnaise']
+Lunch     : ['Cucumber', 'Banana', 'Rice (cooked)', 'Chicken Breast', 'Cottage Cheese', 'Avocado']
+Snack 2   : ['Cucumber', 'Peach', 'Oatmeal', 'Black Beans', 'Swiss Cheese', 'Butter']
+Dinner    : ['Bell Pepper', 'Watermelon', 'Salted Cracker', 'Omelet', 'Swiss Cheese', 'Walnuts']
+
+Parent 2 AFTER
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Peach', 'Quinoa (cooked)', 'Tuna (canned)', 'Cottage Cheese', 'Corn Oil']
+Snack 1   : ['Bell Pepper', 'Apple', 'Quinoa (cooked)', 'Tofu', 'Ricotta Cheese', 'Mayonnaise']
+Lunch     : ['Green Beans', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Cottage Cheese', 'Avocado']
+Snack 2   : ['Zucchini', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Grated Parmesan', 'Corn Oil']
+Dinner    : ['Broccoli', 'Strawberries', 'Brown Rice', 'Black Beans', 'Greek Yogurt', 'Avocado']
+====================================
+
+========== CROSSOVER DEBUG ==========
+Meal cut points: 2 → 3
+
+Parent 1 BEFORE
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Peach', 'Quinoa (cooked)', 'Tuna (canned)', 'Cottage Cheese', 'Corn Oil']
+Snack 1   : ['Bell Pepper', 'Peach', 'Pita Bread', 'Turkey Breast', 'Sour Cream', 'Mayonnaise']
+Lunch     : ['Cucumber', 'Banana', 'Rice (cooked)', 'Chicken Breast', 'Cottage Cheese', 'Avocado']
+Snack 2   : ['Cucumber', 'Peach', 'Oatmeal', 'Black Beans', 'Swiss Cheese', 'Butter']
+Dinner    : ['Broccoli', 'Strawberries', 'Brown Rice', 'Black Beans', 'Greek Yogurt', 'Avocado']
+
+Parent 2 BEFORE
+------------------------------------------------------------
+Breakfast : ['Zucchini', 'Apple', 'Bagel', 'Grilled Salmon', 'Greek Yogurt', 'Mayonnaise']
+Snack 1   : ['Zucchini', 'Strawberries', 'Corn Tortilla', 'Tofu', 'Cheddar Cheese', 'Sunflower Oil']
+Lunch     : ['Zucchini', 'Apple', 'Salted Cracker', 'Tofu', 'Grated Parmesan', 'Coconut Oil']
+Snack 2   : ['Tomato', 'Orange', 'Bagel', 'Grilled Salmon', 'Milk (2%)', 'Olive Oil']
+Dinner    : ['Spinach', 'Strawberries', 'Pita Bread', 'Ground Beef (lean)', 'Greek Yogurt', 'Butter']
+
+Parent 1 AFTER
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Peach', 'Quinoa (cooked)', 'Tuna (canned)', 'Cottage Cheese', 'Corn Oil']
+Snack 1   : ['Bell Pepper', 'Peach', 'Pita Bread', 'Turkey Breast', 'Sour Cream', 'Mayonnaise']
+Lunch     : ['Zucchini', 'Apple', 'Salted Cracker', 'Tofu', 'Grated Parmesan', 'Coconut Oil']
+Snack 2   : ['Cucumber', 'Peach', 'Oatmeal', 'Black Beans', 'Swiss Cheese', 'Butter']
+Dinner    : ['Broccoli', 'Strawberries', 'Brown Rice', 'Black Beans', 'Greek Yogurt', 'Avocado']
+
+Parent 2 AFTER
+------------------------------------------------------------
+Breakfast : ['Zucchini', 'Apple', 'Bagel', 'Grilled Salmon', 'Greek Yogurt', 'Mayonnaise']
+Snack 1   : ['Zucchini', 'Strawberries', 'Corn Tortilla', 'Tofu', 'Cheddar Cheese', 'Sunflower Oil']
+Lunch     : ['Cucumber', 'Banana', 'Rice (cooked)', 'Chicken Breast', 'Cottage Cheese', 'Avocado']
+Snack 2   : ['Tomato', 'Orange', 'Bagel', 'Grilled Salmon', 'Milk (2%)', 'Olive Oil']
+Dinner    : ['Spinach', 'Strawberries', 'Pita Bread', 'Ground Beef (lean)', 'Greek Yogurt', 'Butter']
+====================================
+
+========== CROSSOVER DEBUG ==========
+Meal cut points: 1 → 2
+
+Parent 1 BEFORE
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Peach', 'Quinoa (cooked)', 'Tuna (canned)', 'Cottage Cheese', 'Corn Oil']
+Snack 1   : ['Bell Pepper', 'Peach', 'Pita Bread', 'Turkey Breast', 'Sour Cream', 'Mayonnaise']
+Lunch     : ['Cucumber', 'Banana', 'Rice (cooked)', 'Chicken Breast', 'Cottage Cheese', 'Avocado']
+Snack 2   : ['Cucumber', 'Peach', 'Oatmeal', 'Black Beans', 'Swiss Cheese', 'Butter']
+Dinner    : ['Broccoli', 'Strawberries', 'Brown Rice', 'Black Beans', 'Greek Yogurt', 'Avocado']
+
+Parent 2 BEFORE
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Peach', 'Salted Cracker', 'Canned Chicken', 'Ricotta Cheese', 'Mayonnaise']
+Snack 1   : ['Bell Pepper', 'Apple', 'Quinoa (cooked)', 'Tofu', 'Ricotta Cheese', 'Mayonnaise']
+Lunch     : ['Green Beans', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Cottage Cheese', 'Avocado']
+Snack 2   : ['Zucchini', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Grated Parmesan', 'Corn Oil']
+Dinner    : ['Bell Pepper', 'Watermelon', 'Salted Cracker', 'Omelet', 'Swiss Cheese', 'Walnuts']
+
+Parent 1 AFTER
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Peach', 'Quinoa (cooked)', 'Tuna (canned)', 'Cottage Cheese', 'Corn Oil']
+Snack 1   : ['Bell Pepper', 'Apple', 'Quinoa (cooked)', 'Tofu', 'Ricotta Cheese', 'Mayonnaise']
+Lunch     : ['Cucumber', 'Banana', 'Rice (cooked)', 'Chicken Breast', 'Cottage Cheese', 'Avocado']
+Snack 2   : ['Cucumber', 'Peach', 'Oatmeal', 'Black Beans', 'Swiss Cheese', 'Butter']
+Dinner    : ['Broccoli', 'Strawberries', 'Brown Rice', 'Black Beans', 'Greek Yogurt', 'Avocado']
+
+Parent 2 AFTER
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Peach', 'Salted Cracker', 'Canned Chicken', 'Ricotta Cheese', 'Mayonnaise']
+Snack 1   : ['Bell Pepper', 'Peach', 'Pita Bread', 'Turkey Breast', 'Sour Cream', 'Mayonnaise']
+Lunch     : ['Green Beans', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Cottage Cheese', 'Avocado']
+Snack 2   : ['Zucchini', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Grated Parmesan', 'Corn Oil']
+Dinner    : ['Bell Pepper', 'Watermelon', 'Salted Cracker', 'Omelet', 'Swiss Cheese', 'Walnuts']
+====================================
+
+========== CROSSOVER DEBUG ==========
+Meal cut points: 1 → 4
+
+Parent 1 BEFORE
+------------------------------------------------------------
+Breakfast : ['Zucchini', 'Apple', 'Bagel', 'Grilled Salmon', 'Greek Yogurt', 'Mayonnaise']
+Snack 1   : ['Zucchini', 'Strawberries', 'Corn Tortilla', 'Tofu', 'Cheddar Cheese', 'Sunflower Oil']
+Lunch     : ['Zucchini', 'Apple', 'Salted Cracker', 'Tofu', 'Grated Parmesan', 'Coconut Oil']
+Snack 2   : ['Tomato', 'Orange', 'Bagel', 'Grilled Salmon', 'Milk (2%)', 'Olive Oil']
+Dinner    : ['Spinach', 'Strawberries', 'Pita Bread', 'Ground Beef (lean)', 'Greek Yogurt', 'Butter']
+
+Parent 2 BEFORE
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Pineapple', 'Corn Tortilla', 'Tuna (canned)', 'Swiss Cheese', 'Almonds']
+Snack 1   : ['Carrots', 'Blueberries', 'Pasta (cooked)', 'Grilled Salmon', 'Grated Parmesan', 'Butter']
+Lunch     : ['Cucumber', 'Orange', 'Brown Rice', 'Ground Beef (lean)', 'Cottage Cheese', 'Olive Oil']
+Snack 2   : ['Zucchini', 'Banana', 'Bagel', 'Eggs (boiled)', 'Ricotta Cheese', 'Butter']
+Dinner    : ['Cucumber', 'Banana', 'Quinoa (cooked)', 'Ground Beef (lean)', 'Cottage Cheese', 'Corn Oil']
+
+Parent 1 AFTER
+------------------------------------------------------------
+Breakfast : ['Zucchini', 'Apple', 'Bagel', 'Grilled Salmon', 'Greek Yogurt', 'Mayonnaise']
+Snack 1   : ['Carrots', 'Blueberries', 'Pasta (cooked)', 'Grilled Salmon', 'Grated Parmesan', 'Butter']
+Lunch     : ['Cucumber', 'Orange', 'Brown Rice', 'Ground Beef (lean)', 'Cottage Cheese', 'Olive Oil']
+Snack 2   : ['Zucchini', 'Banana', 'Bagel', 'Eggs (boiled)', 'Ricotta Cheese', 'Butter']
+Dinner    : ['Spinach', 'Strawberries', 'Pita Bread', 'Ground Beef (lean)', 'Greek Yogurt', 'Butter']
+
+Parent 2 AFTER
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Pineapple', 'Corn Tortilla', 'Tuna (canned)', 'Swiss Cheese', 'Almonds']
+Snack 1   : ['Zucchini', 'Strawberries', 'Corn Tortilla', 'Tofu', 'Cheddar Cheese', 'Sunflower Oil']
+Lunch     : ['Zucchini', 'Apple', 'Salted Cracker', 'Tofu', 'Grated Parmesan', 'Coconut Oil']
+Snack 2   : ['Tomato', 'Orange', 'Bagel', 'Grilled Salmon', 'Milk (2%)', 'Olive Oil']
+Dinner    : ['Cucumber', 'Banana', 'Quinoa (cooked)', 'Ground Beef (lean)', 'Cottage Cheese', 'Corn Oil']
+====================================
+
+========== CROSSOVER DEBUG ==========
+Meal cut points: 1 → 3
+
+Parent 1 BEFORE
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Peach', 'Quinoa (cooked)', 'Tuna (canned)', 'Cottage Cheese', 'Corn Oil']
+Snack 1   : ['Bell Pepper', 'Peach', 'Pita Bread', 'Turkey Breast', 'Sour Cream', 'Mayonnaise']
+Lunch     : ['Cucumber', 'Banana', 'Rice (cooked)', 'Chicken Breast', 'Cottage Cheese', 'Avocado']
+Snack 2   : ['Cucumber', 'Peach', 'Oatmeal', 'Black Beans', 'Swiss Cheese', 'Butter']
+Dinner    : ['Broccoli', 'Strawberries', 'Brown Rice', 'Black Beans', 'Greek Yogurt', 'Avocado']
+
+Parent 2 BEFORE
+------------------------------------------------------------
+Breakfast : ['Zucchini', 'Apple', 'Bagel', 'Grilled Salmon', 'Greek Yogurt', 'Mayonnaise']
+Snack 1   : ['Zucchini', 'Strawberries', 'Corn Tortilla', 'Tofu', 'Cheddar Cheese', 'Sunflower Oil']
+Lunch     : ['Zucchini', 'Apple', 'Salted Cracker', 'Tofu', 'Grated Parmesan', 'Coconut Oil']
+Snack 2   : ['Tomato', 'Orange', 'Bagel', 'Grilled Salmon', 'Milk (2%)', 'Olive Oil']
+Dinner    : ['Spinach', 'Strawberries', 'Pita Bread', 'Ground Beef (lean)', 'Greek Yogurt', 'Butter']
+
+Parent 1 AFTER
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Peach', 'Quinoa (cooked)', 'Tuna (canned)', 'Cottage Cheese', 'Corn Oil']
+Snack 1   : ['Zucchini', 'Strawberries', 'Corn Tortilla', 'Tofu', 'Cheddar Cheese', 'Sunflower Oil']
+Lunch     : ['Zucchini', 'Apple', 'Salted Cracker', 'Tofu', 'Grated Parmesan', 'Coconut Oil']
+Snack 2   : ['Cucumber', 'Peach', 'Oatmeal', 'Black Beans', 'Swiss Cheese', 'Butter']
+Dinner    : ['Broccoli', 'Strawberries', 'Brown Rice', 'Black Beans', 'Greek Yogurt', 'Avocado']
+
+Parent 2 AFTER
+------------------------------------------------------------
+Breakfast : ['Zucchini', 'Apple', 'Bagel', 'Grilled Salmon', 'Greek Yogurt', 'Mayonnaise']
+Snack 1   : ['Bell Pepper', 'Peach', 'Pita Bread', 'Turkey Breast', 'Sour Cream', 'Mayonnaise']
+Lunch     : ['Cucumber', 'Banana', 'Rice (cooked)', 'Chicken Breast', 'Cottage Cheese', 'Avocado']
+Snack 2   : ['Tomato', 'Orange', 'Bagel', 'Grilled Salmon', 'Milk (2%)', 'Olive Oil']
+Dinner    : ['Spinach', 'Strawberries', 'Pita Bread', 'Ground Beef (lean)', 'Greek Yogurt', 'Butter']
+====================================
+
+========== CROSSOVER DEBUG ==========
+Meal cut points: 1 → 3
+
+Parent 1 BEFORE
+------------------------------------------------------------
+Breakfast : ['Zucchini', 'Apple', 'Bagel', 'Grilled Salmon', 'Greek Yogurt', 'Mayonnaise']
+Snack 1   : ['Zucchini', 'Strawberries', 'Corn Tortilla', 'Tofu', 'Cheddar Cheese', 'Sunflower Oil']
+Lunch     : ['Zucchini', 'Apple', 'Salted Cracker', 'Tofu', 'Grated Parmesan', 'Coconut Oil']
+Snack 2   : ['Tomato', 'Orange', 'Bagel', 'Grilled Salmon', 'Milk (2%)', 'Olive Oil']
+Dinner    : ['Spinach', 'Strawberries', 'Pita Bread', 'Ground Beef (lean)', 'Greek Yogurt', 'Butter']
+
+Parent 2 BEFORE
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Peach', 'Salted Cracker', 'Canned Chicken', 'Ricotta Cheese', 'Mayonnaise']
+Snack 1   : ['Bell Pepper', 'Apple', 'Quinoa (cooked)', 'Tofu', 'Ricotta Cheese', 'Mayonnaise']
+Lunch     : ['Green Beans', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Cottage Cheese', 'Avocado']
+Snack 2   : ['Zucchini', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Grated Parmesan', 'Corn Oil']
+Dinner    : ['Bell Pepper', 'Watermelon', 'Salted Cracker', 'Omelet', 'Swiss Cheese', 'Walnuts']
+
+Parent 1 AFTER
+------------------------------------------------------------
+Breakfast : ['Zucchini', 'Apple', 'Bagel', 'Grilled Salmon', 'Greek Yogurt', 'Mayonnaise']
+Snack 1   : ['Bell Pepper', 'Apple', 'Quinoa (cooked)', 'Tofu', 'Ricotta Cheese', 'Mayonnaise']
+Lunch     : ['Green Beans', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Cottage Cheese', 'Avocado']
+Snack 2   : ['Tomato', 'Orange', 'Bagel', 'Grilled Salmon', 'Milk (2%)', 'Olive Oil']
+Dinner    : ['Spinach', 'Strawberries', 'Pita Bread', 'Ground Beef (lean)', 'Greek Yogurt', 'Butter']
+
+Parent 2 AFTER
+------------------------------------------------------------
+Breakfast : ['Green Beans', 'Peach', 'Salted Cracker', 'Canned Chicken', 'Ricotta Cheese', 'Mayonnaise']
+Snack 1   : ['Zucchini', 'Strawberries', 'Corn Tortilla', 'Tofu', 'Cheddar Cheese', 'Sunflower Oil']
+Lunch     : ['Zucchini', 'Apple', 'Salted Cracker', 'Tofu', 'Grated Parmesan', 'Coconut Oil']
+Snack 2   : ['Zucchini', 'Blueberries', 'Corn Tortilla', 'Turkey Breast', 'Grated Parmesan', 'Corn Oil']
+Dinner    : ['Bell Pepper', 'Watermelon', 'Salted Cracker', 'Omelet', 'Swiss Cheese', 'Walnuts']
+====================================
+
+--- FITNESS DEBUG ---
+Calories: 2142.8
+Macros %: C=0.49, P=0.38, F=0.13
+J_macro=0.0517, J_var=0.0095, J_cal=0.1151
+
+--- FITNESS DEBUG ---
+Calories: 2451.3
+Macros %: C=0.54, P=0.33, F=0.14
+J_macro=0.0294, J_var=0.0107, J_cal=0.2831
+
+--- FITNESS DEBUG ---
+Calories: 2216.4
+Macros %: C=0.58, P=0.27, F=0.16
+J_macro=0.0142, J_var=0.0059, J_cal=0.1484
+
+--- FITNESS DEBUG ---
+Calories: 2651.1
+Macros %: C=0.62, P=0.29, F=0.09
+J_macro=0.0363, J_var=0.0071, J_cal=0.4316
+
+--- FITNESS DEBUG ---
+Calories: 2654.3
+Macros %: C=0.50, P=0.32, F=0.18
+J_macro=0.0228, J_var=0.0107, J_cal=0.4342
+
+--- FITNESS DEBUG ---
+Calories: 2251.9
+Macros %: C=0.57, P=0.27, F=0.16
+J_macro=0.0134, J_var=0.0059, J_cal=0.1660
+
+--- FITNESS DEBUG ---
+Calories: 2555.9
+Macros %: C=0.47, P=0.39, F=0.14
+J_macro=0.0524, J_var=0.0059, J_cal=0.3569
+2  	7     	0.942088	0.905954	0.959569
+
+MEAL         | GROUP      | FOOD ITEM          | SERV.  | P (g)  | F (g)  | C (g)
+---------------------------------------------------------------------------
+Breakfast    | Vegetables      | Green Beans        | 1      | 2.0    | 0.1    | 7.8
+Breakfast    | Grains          | Quinoa (cooked)    | 2      | 8.8    | 3.8    | 42.6
+Breakfast    | Protein         | Tuna (canned)      | 1      | 26.0   | 1.0    | 0.0
+Breakfast    | Dairy           | Cottage Cheese     | 1      | 11.0   | 2.3    | 3.4
+Breakfast    | Fats and Oils   | Corn Oil           | 1      | 0.0    | 13.6   | 0.0
+Snack 1      | Fruits          | Peach              | 1      | 0.9    | 0.3    | 9.5
+Snack 1      | Grains          | Pita Bread         | 1      | 2.7    | 0.7    | 16.8
+Lunch        | Vegetables      | Zucchini           | 1      | 1.2    | 0.3    | 3.1
+Lunch        | Grains          | Salted Cracker     | 3      | 0.7    | 2.3    | 5.5
+Lunch        | Protein         | Tofu               | 2      | 16.0   | 9.6    | 3.8
+Lunch        | Dairy           | Grated Parmesan    | 1      | 1.9    | 1.4    | 0.2
+Lunch        | Fats and Oils   | Coconut Oil        | 1      | 0.0    | 13.5   | 0.0
+Snack 2      | Fruits          | Peach              | 1      | 0.9    | 0.3    | 9.5
+Snack 2      | Grains          | Oatmeal            | 1      | 2.5    | 1.4    | 12.0
+Dinner       | Vegetables      | Broccoli           | 1      | 2.8    | 0.4    | 7.0
+Dinner       | Fruits          | Strawberries       | 1      | 0.7    | 0.3    | 7.7
+Dinner       | Grains          | Brown Rice         | 2      | 5.2    | 1.8    | 46.0
+Dinner       | Protein         | Black Beans        | 1      | 8.9    | 0.5    | 23.7
+
+========================================
+       DAILY NUTRITION SUMMARY
+========================================
+Total Energy:   1616.4 kcal
+Total Weight:   344.4 g (Macro Grams)
+----------------------------------------
+Nutrient     | Actual % | Target %
+Carbs (c)    |    57.7% | 55.0%
+Protein (p)  |    26.8% | 20.0%
+Fats (f)     |    15.6% | 25.0%
+Meal variety |    99.4% | 100%
+========================================
