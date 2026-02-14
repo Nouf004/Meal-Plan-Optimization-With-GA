@@ -1,0 +1,110 @@
+import torch
+import pandas as pd
+import numpy as np
+from transformers import pipeline
+from tqdm import tqdm
+
+# ==============================
+# 1. LOAD DATA
+# ==============================
+
+file_path = 'C:\\Users\\Hatna\\OneDrive\\Desktop\\GP\\Bahrain Food Dataset.xlsx'
+df = pd.read_excel(file_path)
+
+print("Initializing AI model...")
+
+classifier = pipeline(
+    "zero-shot-classification",
+    model="facebook/bart-large-mnli",
+    tokenizer="facebook/bart-large-mnli",
+    device=-1
+)
+
+# ==============================
+# 2. MEAL LABELS
+# ==============================
+
+meal_labels = ["breakfast", "lunch", "dinner", "snack"]
+batch_size = 16
+
+# ==============================
+# 3. CATEGORY → ALLOWED MEALS
+# ==============================
+
+ALLOWED_MEALS = {
+    "fruit":      ["Snack 1", "Snack 2", "Dinner"],
+    "vegetable":  ["Lunch", "Dinner"],
+    "grain":      ["Breakfast", "Lunch"],
+    "protein":    ["Lunch", "Dinner"],
+    "dairy":      ["Breakfast", "Lunch"],   # NEVER snacks or dinner
+    "fats and oils": ["Lunch"]
+}
+
+# Default if category missing
+DEFAULT_ALLOWED = ["Breakfast", "Lunch", "Dinner"]
+
+# ==============================
+# 4. CLASSIFY IN BATCHES
+# ==============================
+
+food_items = df['Food Item'].astype(str).tolist()
+results = []
+
+print(f"Processing {len(food_items)} food items...")
+
+for i in tqdm(range(0, len(food_items), batch_size)):
+    batch = food_items[i:i+batch_size]
+
+    outputs = classifier(
+        batch,
+        meal_labels,
+        multi_label=True
+    )
+
+    for j, result in enumerate(outputs):
+        scores = dict(zip(result['labels'], result['scores']))
+
+        row_index = i + j
+        category = str(df.loc[row_index, 'Category']).lower()
+
+        allowed = ALLOWED_MEALS.get(category, DEFAULT_ALLOWED)
+
+        meal_assignment = {
+            "Breakfast": int("Breakfast" in allowed and scores["breakfast"] > 0.25),
+            "Lunch":     int("Lunch" in allowed and scores["lunch"] > 0.25),
+            "Dinner":    int("Dinner" in allowed and scores["dinner"] > 0.25),
+            "Snack 1":   int("Snack 1" in allowed and scores["snack"] > 0.20),
+            "Snack 2":   int("Snack 2" in allowed and scores["snack"] > 0.20)
+        }
+
+        # Guarantee at least ONE allowed meal
+        if sum(meal_assignment.values()) == 0:
+            first_allowed = allowed[0]
+            meal_assignment[first_allowed] = 1
+
+        results.append(meal_assignment)
+
+# ==============================
+# 5. SAVE RESULTS TO DATAFRAME
+# ==============================
+
+df[['Breakfast', 'Lunch', 'Dinner', 'Snack 1', 'Snack 2']] = pd.DataFrame(results)
+
+# ==============================
+# 6. USER PREFERENCE GENERATION
+# ==============================
+
+np.random.seed(42)
+pref_options = [0, 0.25, 0.5, 0.75, 1.0]
+df['User Preference'] = np.random.choice(pref_options, size=len(df))
+
+# ==============================
+# 7. EXPORT
+# ==============================
+
+output_name = 'Processed_Bahrain_Food_Dataset_FINAL.csv'
+df.to_csv(output_name, index=False)
+
+print("\nTask Complete!")
+print(f"Saved as: {output_name}")
+print(df[['Food Item', 'Category', 'Breakfast', 'Snack 1', 'Lunch', 'Snack 2', 'Dinner']].head())
